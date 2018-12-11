@@ -1,0 +1,447 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+ /* background: #FFF8F6; */
+ /* background: black; */
+ background: white;
+ font-family: 'Nanum Gothic Coding', monospace;
+ color: black;
+ font-size: 15px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover,a:active {
+  /* color: #00e673; */
+  font-style: oblique;
+}
+
+
+.hero {
+  height: 125vh;
+  background: url('../photos/priya.jpeg');
+  background-position: center;
+  /* border: 25px solid white; */
+  /* border: 20px solid #FFF8F6; */
+  /* border: 30px solid #ffff; */
+
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* text-align: center; */
+}
+
+.hero-text-title {
+  font-family: 'Kumar One Outline', cursive;
+  /* font-family: 'Playfair Display', serif; */
+  font-size: 6.7vh;
+  color: #00e673;
+  font-style: italic;
+  margin-bottom: 0em;
+  /* margin-top: 5em; */
+  margin-top: -0.6em;
+  /* position: fixed; */
+  /* text-align: center;
+  margin-left: 150px; */
+  /* display: inline;
+  display: inline-block;
+  flex-direction:column; */
+  /* -webkit-animation:fade-in 5s ; */
+}
+
+/* @-webkit-keyframes fade-in{
+from{
+    opacity:1;
+}
+to{
+    opacity:0;
+}
+}
+} */
+
+.hero-text-subtext {
+  font-size: 3vh;
+  margin-left: 10px;
+  /* font-family: 'Eczar', serif; */
+  font-family: 'Almendra Display', cursive;
+  font-style: regular 400;
+  color: white;
+  padding-left: 565px;
+  line-height: 0.1px;
+  margin-top: -2em;
+}
+
+.titles {
+  height: 45vh;
+}
+
+/* .hero-nav {
+  font-family: 'Eczar';
+  font-size: 30px;
+  display: inline-block;
+  justify-content: space-around;
+  justify-content: space-between;
+  flex-direction: column;
+  /* vertical-align: baseline; */
+  /* align-items: center;
+  position: fixed;
+  bottom: 50px;
+  left: 50px; */
+
+  p2 {
+    font-size: 15px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 400;
+    color: black;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.4em;
+    /* margin-left: auto;
+    margin-right: auto; */
+  }
+
+  p2 span {
+    font-size: 14px;
+  }
+
+  /* STICKY TRIAL */
+
+  header, section.about, section.projects {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+
+  section.about {
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  section.about div {
+    width: 50%;
+  }
+
+  section.about .about-text {
+    padding-top: 300px;
+    /* padding-left: 20px;
+    padding-right: 200px; */
+    padding-left: 100px;
+    background-color: white;
+  }
+
+  section.about .about-img {
+    /* background: url('../photos/profile.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0; */
+    background: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  section.about .about-img img {
+    align-items: center;
+    justify-content: center;
+    webkit-align-items: center;
+    webkit-justify-content: center;
+    width: 55%;
+    /* padding: px; */
+  }
+
+  section.projects {
+    background-color: white;
+  }
+  /* STICKY TRIAL END */
+
+  .about-title {
+    font-size: 60px;
+    /* font-family: 'Nanum Gothic Coding', monospace; */
+    /* font-weight: 400; */
+    /* color: #F7514E; */
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 40px;
+
+  }
+
+  .emailhover {
+    background-image: linear-gradient(to right, transparent 50%, #ffb347 50%);
+    background-size: 200%
+  }
+
+  .emailhover:hover {
+    transition: background-position 0.5s;
+    background-position: -100%;
+  }
+
+.projects-title {
+  font-size: 60px;
+  /* font-family: 'Nanum Gothic Coding', monospace;
+  font-weight: 400; */
+  /* color: #F78E4E; */
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+
+}
+
+
+/* MASON GRID LAYOUT: */
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+  /* font-family: 'Open Sans', sans-serif;
+  font-size: 16px; */
+  /* padding: 0;
+  margin: 0; */
+}
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+/* h2 {
+  color: black;
+  font-weight: 400;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Cabin Sketch', cursive;
+} */
+
+/* img {
+  border: 0;
+  display: block;
+  width: 100%;
+} */
+
+.grid {
+	max-width: 85em;
+	/* list-style: none; */
+
+ STICKY EDIT:
+
+  /* margin: 30px auto;
+	padding: 1; */
+}
+
+.grid .item {
+	/* display: block; */
+	float: none;
+	padding: 30px;
+	width: 33%;
+	opacity: 1;
+}
+
+.grid .item a,.grid .item img {
+	outline: none;
+	border: none;
+	/* display: block; */
+	max-width: 100%;
+}
+
+.grid.effect-2 .item.animate {
+	-webkit-transform: translateY(200px);
+	transform: translateY(200px);
+	-webkit-animation: moveUp 0.65s ease forwards;
+	animation: moveUp 0.65s ease forwards;
+}
+
+.item.street-photography {
+  width: 55%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item.street-photography img {
+  transform: skewY(2deg);
+  animation: street 2s infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes street {
+0% {
+  transform: skewY(1deg);
+}
+100% {
+  transform: skewY(-1deg);
+}
+}
+
+.item.blackandwhite-photography {
+  width: 70%;
+  height: auto;
+  /* float: right; */
+}
+
+.item.blackandwhite-photography img {
+  ransform: skewX(3deg);
+  animation: portrait 2s infinite;
+  animation-direction:alternate-reverse;
+}
+
+@keyframes blackandwhite {
+0% {
+  transform: skewX(3deg);
+}
+100% {
+  transform: skewX(-2deg);
+}
+}
+
+.item.portrait-photography {
+  width: 30%;
+  height: auto;
+  float: right;
+  /* margin-left: 10%; */
+  transform: skewY(0.5deg);
+  animation: portrait 2s infinite;
+  animation-direction: alternate-reverse;
+}
+
+.item.portrait-photography img {
+  transform: skewY(0.5deg);
+  animation: portrait 2s infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes portrait {
+0% {
+  transform: skewY(0.5deg);
+}
+100% {
+  transform: skewY(-0.5deg);
+}
+}
+
+
+.item.carnival-photography {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item.carnival-photography img {
+
+  transform: skewX(2deg);
+  animation: carnival 4s infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes carnival {
+0% {
+  transform: skewX(2deg);
+}
+100% {
+  transform: skewX(-2deg);
+}
+}
+
+.item.travel-photography {
+  width: 60%;
+  height: auto;
+  float: right;
+}
+
+.item.travel-photography img{
+  transform: skewY(0.5deg);
+  animation: travel 2s infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes travel {
+0% {
+  transform: skewY(0.5deg);
+}
+100% {
+  transform: skewY(-0.5deg);
+}
+}
+
+
+h2, h3, h4, h5, h6 {
+  font-size: 15px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  line-height: 5em;
+  text-decoration: none;
+  color: black;
+  /* color: white; */
+
+}
+
+.item span:hover {
+  font-size: 20px;
+  border-color: grey;
+  border-bottom: 2px solid black;
+  /* border-bottom: 2px solid white; */
+  font-style: oblique;
+}
+
+.item span {
+  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid white; */
+  padding-bottom: 0.1em;
+}
+
+/* main span:hover:before {
+background-color: black;
+} */
+
+
+@-webkit-keyframes moveUp {
+	0% { }
+	100% { -webkit-transform: translateY(0); opacity: 1; }
+}
+
+@keyframes moveUp {
+	0% { }
+	100% { -webkit-transform: translateY(0); transform: translateY(0); opacity: 1; }
+}
+@media screen and (max-width: 900px) {
+	.grid .item {width: 50%;}
+}
+}
+
+@media screen and (max-width: 400px) {
+	.grid .item {width: 100%;}
+  }
+}
+
+.top-button {
+  display: flex;
+}
+
+.top-button a {
+  display: inline-block;
+  text-align: center;
+}

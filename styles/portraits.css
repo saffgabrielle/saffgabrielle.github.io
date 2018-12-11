@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+ background-color: #FFFF;
+ /* background-color: #e6ffe6; */
+ font-size: 15px;
+ font-family: 'Nanum Gothic Coding', monospace;
+ font-weight: 400;
+}
+
+.hero {
+  height: 100vh;
+  background: url('../photos/carnival.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* border: 30px solid #ffff;  */
+  /* border: 35px solid #000000; */
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 45px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+h4, h3 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+h2 span{
+  border-bottom: 1.5px solid black;
+  border-bottom-style: dashed;
+}
+
+.hero-text-title {
+  font-family: 'Kumar One Outline', cursive;
+  font-size: 1.5vh;
+  color: black;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 0em;
+  margin-left: 32em;
+  position: fixed;
+  background-color: honeydew;
+  padding: -2em;
+}
+
+/* .hero-text-subtext {
+  font-size: 3vh;
+  margin-left: 10px;
+  /* font-family: 'Eczar', serif; */
+  font-family: 'Almendra Display', cursive;
+  font-style: regular 400;
+  color: white;
+  padding-left: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 0.1px;
+  margin-top: -1.5em;
+} */
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* body, html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  /* padding: 0;
+  margin: 0; */
+} */
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+
+/* body {
+  font-family: 'Open Sans', sans-serif;
+	color: #6b7381; */
+}
+
+a {
+	color: #aaa;
+	text-decoration: none;
+}
+
+a:hover,a:active {color: #333;}
+
+/* h2 {
+  color: black;
+  font-weight: 400;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Cabin Sketch', cursive;
+} */
+
+/* img {
+  border: 0;
+  display: block;
+  width: 100%;
+} */
+
+.grid {
+	max-width: 85em;
+	/* list-style: none; */
+	margin: 30px auto;
+	padding: 1;
+}
+.grid .item {
+	/* display: block; */
+	float: none;
+	padding: 30px;
+	width: 33%;
+	opacity: 1;
+}
+
+.grid .item a,.grid .item img {
+	outline: none;
+	border: none;
+	/* display: block; */
+	max-width: 100%;
+}
+
+.grid.effect-2 .item.animate {
+	-webkit-transform: translateY(200px);
+	transform: translateY(200px);
+	-webkit-animation: moveUp 0.65s ease forwards;
+	animation: moveUp 0.65s ease forwards;
+}
+
+.item.street-photography {
+  width: 55%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* h2, h3, h4, h5, h6 {
+  font-size: 15px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  line-height: 5em;
+  text-decoration: none;
+  color: black; */
+
+}
+
+main span:hover {
+  font-size: 20px;
+  border-color: grey;
+  border-bottom: 4px solid black;
+}
+
+main span {
+  border-bottom: 1px solid black;
+  padding-bottom: 0.1em;
+}
+
+.item.portrait-photography {
+  width: 30%;
+  height: auto;
+  float: right;
+  /* margin-left: 10%; */
+}
+
+.item.portrait-photography:hover {
+  width: 32%;
+}
+
+.item.carnival-photography {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.item.carnival-photography:hover {
+  width: 68%;
+}
+
+.item.travel-photography {
+  width: 60%;
+  height: auto;
+  float: right;
+}
+
+.item.blackandwhite-photography {
+  width: 70%;
+  height: auto;
+  /* float: right; */
+}
+
+
+
+@-webkit-keyframes moveUp {
+	0% { }
+	100% { -webkit-transform: translateY(0); opacity: 1; }
+}
+
+@keyframes moveUp {
+	0% { }
+	100% { -webkit-transform: translateY(0); transform: translateY(0); opacity: 1; }
+}
+@media screen and (max-width: 900px) {
+	.grid .item {width: 50%;}
+}
+}
+
+@media screen and (max-width: 400px) {
+	.grid .item {width: 100%;}
+  }
+}

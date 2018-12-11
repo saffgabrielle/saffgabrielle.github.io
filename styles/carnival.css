@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+ background-color: #FFFF;
+ /* background-color: #e6ffe6; */
+ font-size: 15px;
+ font-family: 'Nanum Gothic Coding', monospace;
+ font-weight: 400;
+}
+
+/* STICKY TRIAL  */
+
+header, main {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+main {
+  background: white;
+}
+
+/* STICKY TRIAL ENDS */
+
+.hero {
+  height: 100vh;
+  background: url('../photos/carnival.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* border: 30px solid #ffff;  */
+  /* border: 35px solid #000000; */
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+h1 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 170px;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  /* font-style: italic; */
+}
+
+.heading {
+  border-bottom: 10px solid transparent;
+	border-image: linear-gradient(to right, #ffb347  0%, #ffcc33  100%);
+	border-image-slice: 1;
+}
+
+h2 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 30px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  margin-top: -4.5em;
+  text-decoration:
+}
+
+h3 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 15px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-weight: 400;
+  margin-top: -1.5em;
+  padding-bottom: 2em;
+}
+
+h2 span{
+  border-bottom: 1.5px solid black;
+  border-bottom-style: dashed;
+}
+
+/* .description-border {
+  background-image: linear-gradient(260deg, #ffb347 0%, #ffcc33 100%);
+  height: 65px; */
+}
+
+/* .line {
+  margin: 100px;
+  border-bottom: 0.5px solid black;
+} */
+
+
+/* FLEX BOX TRIAL */
+
+
+/*
+.grid{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+}
+
+.grid img {
+  max-height: 90vh;
+  max-width: 90vh;
+  flex-grow: 1;
+} */
+
+
+
+
+/* MASON GALLERY TRIAL */
+
+
+  /*
+
+body {
+  /* font-family: 'Open Sans', sans-serif;
+	color: #6b7381;
+	background: #f2f2f2; */
+}
+
+/* a {
+	color: #aaa;
+	text-decoration: none;
+}
+a:hover,a:active {color: #333;}
+
+h2 {
+  color: #4E88AE;
+  font-weight: 400;
+  text-align: center; */
+}
+
+img {
+  border: 0;
+  display: block;
+  width: 100%;
+}
+
+.grid {
+	max-width: 90em;
+	list-style: none;
+	margin: 30px auto;
+	padding: 1;
+  padding-top: 50px;
+}
+.grid .item {
+	display: block;
+	float: left;
+	padding: 2px;
+	width: 33%;
+	opacity: 1;
+}
+.grid .item a,.grid .item img {
+	outline: none;
+	border: none;
+	display: block;
+	max-width: 100%;
+}
+.grid.effect-2 .item.animate {
+	-webkit-transform: translateY(200px);
+	transform: translateY(200px);
+	-webkit-animation: moveUp 0.65s ease forwards;
+	animation: moveUp 0.65s ease forwards;
+}
+
+@-webkit-keyframes moveUp {
+	0% { }
+	100% { -webkit-transform: translateY(0); opacity: 1; }
+}
+
+@keyframes moveUp {
+	0% { }
+	100% { -webkit-transform: translateY(0); transform: translateY(0); opacity: 1; }
+}
+@media screen and (max-width: 900px) {
+	.grid .item {width: 50%;}
+}
+
+@media screen and (max-width: 400px) {
+	.grid .item {width: 100%;}
+
+}
+
+/* FANCY BOX  */
