@@ -109,7 +109,9 @@ h2 span{
 } */
 
 
-
+html.sr .item {
+    visibility: hidden;
+}
 
 /* MASON GALLERY TRIAL */
 
