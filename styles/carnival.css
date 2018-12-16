@@ -186,3 +186,34 @@ img {
 }
 
 /* FANCY BOX  */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 30px;
+}
+
+footer a {
+  display: block;
+  font-size: 10px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+}
+
+.back-1 {
+  background-image: linear-gradient(to right, transparent 50%, #ffc500 50%);
+  background-size: 200%
+}
+
+.back-2 {
+  background-image: linear-gradient(to right, transparent 50%, #FF4E50 50%);
+  background-size: 200%
+}
+
+.hover:hover {
+  transition: background-position 0.5s;
+  background-position: -100%;
+  font-weight: 900;
+  font-size: 15px;
+}

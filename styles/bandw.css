@@ -27,7 +27,7 @@ main {
 
 .hero {
   height: 100vh;
-  background: url('../photos/carnival.jpeg');
+  background: url('../photos/shield.jpeg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -49,8 +49,8 @@ h1 {
 }
 
 .heading {
-  border-bottom: 10px solid transparent;
-	border-image: linear-gradient(to right, #ffb347  0%, #ffcc33  100%);
+  border-bottom: 1.5px solid transparent;
+	border-image: linear-gradient(to right, #ECE9E6  0%, #FFFFFF  100%);
 	border-image-slice: 1;
 }
 

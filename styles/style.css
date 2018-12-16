@@ -116,11 +116,12 @@ to{
 
   /* STICKY TRIAL */
 
-  header, section.about, section.projects {
+  header, section.about, section.projects{
     position: sticky;
     position: -webkit-sticky;
     top: 0;
   }
+
 
   section.about {
     background-color: white;
@@ -437,11 +438,20 @@ background-color: black;
   }
 }
 
-.top-button {
-  display: flex;
+.clear {
+  clear: both;
 }
 
-.top-button a {
-  display: inline-block;
-  text-align: center;
+/* END OF GRID */
+
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  font-size: 15px;
+  text-align: left;
+  text-decoration: none;
+  color: black;
 }
