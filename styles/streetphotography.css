@@ -86,6 +86,10 @@ border-bottom: 2px solid white;
 
 }
 
+/* html.sr .item {
+    visibility: hidden;
+} */
+
 /* MASON GRID LAYOUT: */
 
 *, *:after, *:before {

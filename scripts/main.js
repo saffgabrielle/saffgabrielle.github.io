@@ -20,7 +20,7 @@ $(window).on('load', function() {
 
   $('.item > a').removeAttr('href');
 
-ScrollReveal().reveal('.item', { delay: 500 });
+// ScrollReveal().reveal('.item', { delay: 500 });
 ScrollReveal().reveal('.item', { easing: 'steps(10)' });
 ScrollReveal().reveal('.item', { interval: 100 });
 ScrollReveal().reveal('.item', {
